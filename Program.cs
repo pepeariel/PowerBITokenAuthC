@@ -120,7 +120,7 @@ namespace DemoPowerBI
             string result = InitPowerBI();
 
             // Provide the path to the file where you want to write the text
-            string filePath = "/Users/pedroariel/Downloads/file.txt";
+            string filePath = "/home/ec2-user/Documents/PowerBITokenAuthC/file.txt";
 
            WriteTextToFile(filePath, result);
 
